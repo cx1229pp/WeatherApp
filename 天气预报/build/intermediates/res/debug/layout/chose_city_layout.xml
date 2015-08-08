@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_1"
+    >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        >
+
+        <!--<ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="4dip"
+            android:src="@drawable/icon_back" />-->
+        
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="4dip"
+            android:src="@drawable/ic_fun_add" />
+
+        <TextView
+            android:id="@+id/tv_cityManager"
+            style="@style/nav_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/cityManager" />
+
+         <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_edit"
+            android:padding="4dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_fun_refresh" />
+        
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="4dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_fun_edit" />
+    </RelativeLayout>
+    
+	<GridView
+	    android:id="@+id/gridView_choiceCity"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:numColumns="3"
+	    android:verticalSpacing="10dp"
+	    android:horizontalSpacing="10dp"
+	    android:stretchMode="columnWidth"
+	    android:padding="10dip"
+	    android:gravity="center"
+	    >
+	</GridView>
+</LinearLayout><!-- From: file:/D:/workspace/eclipse/天气预报/res/layout/chose_city_layout.xml -->

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:id="@+id/day_weather_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_day_1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="今天"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_1"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_day_weather_1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="晴"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_temperature_1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="28 ~ 13℃"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_wind_1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="微风"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_n_1"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_week_1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="星期一"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_weather_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_day_2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="明天"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_2"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_day_weather_2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="晴"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_temperature_2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="28 ~ 13℃"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_wind_2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="微风"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_n_2"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_week_2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="星期一"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_weather_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_day_3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="@string/day"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_3"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_day_weather_3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="晴"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_temperature_3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="28 ~ 13℃"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_wind_3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="微风"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_n_3"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_week_3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="星期一"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_weather_layout_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_day_4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="@string/day"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_4"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_day_weather_4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="晴"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_temperature_4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="28 ~ 13℃"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_day_wind_4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="微风"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <com.weather.app.customView.SmartImageView
+            android:id="@+id/iv_day_img_n_4"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/weather_no"
+            />
+
+        <TextView
+            android:id="@+id/tv_week_4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="星期一"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/workspace/eclipse/天气预报/res/layout/weather_layout.xml -->
